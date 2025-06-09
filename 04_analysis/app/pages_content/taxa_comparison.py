@@ -13,10 +13,10 @@ import math
 @st.cache_data
 def load_data():
     # Load data
-    region_summary = pd.read_csv("data/csv_files/region_summary.csv")
-    virgo2_inventory = pd.read_csv('data/MAG_inventory_VIRGO2_021623_30Jul2024.txt', sep='\t')
-    cluster_blast = pd.read_csv('data/csv_files/cluster_blast.csv')
-    taxa_colors = pd.read_csv('/Users/amaros/IGS Dropbox/Amaury Maros/Holm_Lab_Summer_2024_shared/RESULTS/B_Temu/brian-json-extract/csv/VIRGO2_taxaKey.csv')
+    region_summary = pd.read_csv("data/region_summary.csv")
+    virgo2_inventory = pd.read_csv('data/MAG_inventory_VIRGO2_021623_30Jul2024.txt.gz', sep='\t')
+    cluster_blast = pd.read_csv('data/csv_files/cluster_blast.csv.gz')
+    taxa_colors = pd.read_csv('data/VIRGO2_taxaKey.csv')
     return region_summary, virgo2_inventory, cluster_blast, taxa_colors
 
 region_summary, virgo2_inventory, cluster_blast, taxa_colors = load_data()
