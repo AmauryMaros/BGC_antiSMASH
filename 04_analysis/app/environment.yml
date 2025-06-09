@@ -1,0 +1,12 @@
+name: app_antismash_env
+channels:
+  - conda-forge
+  - pypi
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - plotly=5.24.1
+  - streamlit=1.41.1
+  - pip:
+      - streamlit-pdf-viewer==0.0.20
