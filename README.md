@@ -4,19 +4,19 @@ Repo structure:
 
 ---
 
-## 📁 **01\_run\_antiSMASH**
+## 📁 [**01\_run\_antiSMASH**](01_run_antiSMASH)
 
 Contains the bash script used to run antiSMASH on all MAGs via a SLURM infrastructure.
 
 ---
 
-## 📁 **02\_pipeline**
+## 📁 [**02\_pipeline**](02_pipeline)
 
 Contains Python (`.py`) and Bash (`.sh`) scripts used to process antiSMASH output files.
 
 ---
 
-## 📁 **03\_results**
+## 📁 [**03\_results**](03_results)
 
 Contains:
 
@@ -27,7 +27,7 @@ Contains:
 
 ---
 
-## :page_facing_up: **refresh.py**
+## :page_facing_up: [**refresh.py**](refresh.py)
 
 A Python script intended to be run as a cron job.
 It opens the Streamlit application associated with this project daily to prevent it from going into sleep mode.
