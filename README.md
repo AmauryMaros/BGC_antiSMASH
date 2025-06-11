@@ -31,6 +31,7 @@ Contains:
 
 A Python script intended to be run as a cron job.
 It opens the Streamlit application associated with this project daily to prevent it from going into sleep mode.
+**Require python with selenium.**
 
 App URL: https://antismash-app.streamlit.app/
 
