@@ -12,7 +12,7 @@ Contains the bash script used to run antiSMASH on all MAGs via a SLURM infrastru
 
 ## 📁 **02\_pipeline**
 
-Contains Python (`.py`) scripts used to process antiSMASH output files.
+Contains Python (`.py`) and Bash (`.sh`) scripts used to process antiSMASH output files.
 
 ---
 
